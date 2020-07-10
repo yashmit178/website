@@ -1,6 +1,10 @@
+import logging
+
 from aiohttp import web
 
-from .views import routes
+from pyslackersweb.sirbot.views import routes
+
+logger = logging.getLogger(__name__)
 
 
 async def app_factory() -> web.Application:

@@ -9,7 +9,7 @@ asyncpgsa==0.26.3
 gunicorn==20.0.4
 marshmallow==3.6.1
 sentry-sdk==0.16.0
-slack-sansio==1.1.0
 psycopg2-binary==2.8.5
 pyyaml==5.3.1
+git+https://github.com/pyslackers/slack-sansio.git@2312217b72b6d3827ab6107ac20fdb05dc4cab6c#egg=slack-sansio
 uvloop==0.14.0
