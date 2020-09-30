@@ -98,7 +98,7 @@ Now you should be good to run the application:
 (.venv) $ gunicorn --bind 127.0.0.1:8000 --worker-class aiohttp.GunicornWebWorker --reload pyslackersweb:app_factory
 ```
 
-Once that launches you can visit [localhost:8000](http://localhost:8000) in your browser and be in business.
+Once that launches you can visit [localhost:8000](http://localhost:8000) in your browser and you should probably be in business.
 
 ## Windows Systems
 
